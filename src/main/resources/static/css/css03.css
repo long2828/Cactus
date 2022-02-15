@@ -1,0 +1,577 @@
+.box1 {
+	border-bottom: 2px solid rgb(233, 225, 225);
+	width: 900px;
+	height: 200px;
+	margin: auto;
+	margin-bottom: 3px;
+	position: relative;
+}
+
+.box2 {
+	display: inline-block;
+	position: absolute;
+	overflow: hidden;
+}
+
+.box2:hover .img11, .box2:focus .img11 {
+	transform: scale(1.4);
+	-ms-transform: scale(1.4);
+	-webkit-transform: scale(1.4);
+}
+
+.box3 {
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	left: 320px;
+}
+
+.sessions {
+	display: inline-block;
+	margin: auto;
+}
+
+.img11 {
+	width: 300px;
+	height: 180px;
+	transition: transform 1s ease;
+}
+
+.img22 {
+	width: 150px;
+	height: 25px;
+}
+
+.cart001 {
+	height: 100px;
+	width: 100px;
+}
+
+.price {
+	display: inline-block;
+	position: absolute;
+	left: 450px;
+	margin-bottom: 1px;
+}
+
+.sp01 {
+	width: 100%;
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.btnbuy {
+	position: absolute;
+	padding: 5px 20px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	background-color: #127e99;
+	border: none;
+	border-radius: 15px;
+	font-size: 15px;
+	left: 330px;
+	bottom: -9px;
+}
+
+.btnbuyupload {
+	position: absolute;
+	padding: 5px 20px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	background-color: gray;
+	border: none;
+	border-radius: 15px;
+	font-size: 15px;
+	left: 330px;
+	bottom: -9px;
+}
+
+.btnbuy:hover {
+	background-color: #8aaa8b
+}
+
+.btnbuy:active {
+	background-color: #3e8e41;
+	transform: translateY(4px);
+}
+
+.tb1 {
+	width: 400px;
+	border-collapse: collapse;
+	margin: auto;
+}
+
+.h01 {
+	font-family: serif;
+	text-align: center;
+
+	/* ���嚙踝蕭豯株嚙踝蕭謢賂蕭��嚙踝蕭謘橫扒嚙踝蕭��嚙踐�蕭謓啣����蕭  嚙踐狎嚙踝蕭豯株雓�嚙踝蕭蹎�蕭嚙踐�蕭豯株嚙踐嚙踝蕭�謘�飭�雓撒撌典��蕭�嚙踝謋脣�� ����喉蕭�嚙踐ㄞ������蕭豯株嚙踝蕭��嚙踐��都謍�蕭  ���嚙踝蕭謚渲頩筐蹍對蕭嚙踝�   */
+}
+
+.h002 {
+	padding-top: 10%;
+	padding-bottom: 100px;
+	margin-left: 30%;
+}
+
+.btn-info {
+	width: 140px;
+	height: 40px;
+	margin: 5px;
+	border: 2px, solid;
+	background-color: white;
+	color: rgb(57, 119, 109);
+}
+
+thead {
+	color: burlywood;
+	text-transform: capitalize;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.btn-primary {
+	background-color: rgb(57, 119, 109);
+	color: white;
+	float: left;
+	/* 嚙踝蕭豲蕭謕蕭蹐���玟�謚恬蕭��蕭謅��嚙踐馮嚙踐���蕭����都嚙踝謋脣�� */
+}
+
+.box4 {
+	width: 900px;
+	margin: auto;
+	margin-top: 200px;
+	position: relative;
+}
+
+.field001 {
+	width: 1000px;
+	border: 3px solid gray;
+	border-radius: 20px;
+	margin: auto;
+}
+
+.lg001 {
+	margin: auto;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgb(85, 79, 79);
+}
+
+.subbb {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.ttt {
+	font-size: 20px;
+	text-align: center;
+	outline: none;
+	color: #fff;
+	background-color: #127e99;
+	border: none;
+	border-radius: 15px;
+}
+
+.form001 {
+	margin-top: 10%;
+}
+
+.icon-bar {
+	width: 100%;
+	/* Full-width */
+	background-color: #555;
+	/* Dark-grey background */
+	overflow: auto;
+	/* Overflow due to float */
+}
+
+.icon-bar a {
+	float: left;
+	/* Float links side by side */
+	text-align: center;
+	/* Center-align text */
+	width: 16.6%;
+	/* Equal width (5 icons with 20% width each = 100%) */
+	padding: 6px 3px 1px 3px;
+	/* Some top and bottom padding */
+	transition: all 0.3s ease;
+	/* Add transition for hover effects */
+	color: white;
+	/* White text color */
+	font-size: 18px;
+	/* Increased font size */
+}
+
+.icon-bar a:hover {
+	background-color: gray;
+	/* Add a hover color */
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+	display: inline-block;
+	height: 700px;
+	width: 150px;
+	z-index: 1;
+	top: 0;
+	left: 200px;
+	background-color: rgb(255, 255, 255);
+	overflow-x: hidden;
+	padding-top: 20px;
+	position: relative;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 30px;
+	color: rgb(161, 154, 154);
+	display: block;
+	border: none;
+	background: none;
+	width: 100%;
+	text-align: left;
+	cursor: pointer;
+	outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+	color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+	margin-left: 200px; /* Same as the width of the sidenav */
+	font-size: 20px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+	background-color: rgb(163, 168, 163);
+	color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+	display: none;
+	background-color: #ffffff;
+	padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+	float: right;
+	padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav a {
+		font-size: 18px;
+	}
+}
+
+.introdiv {
+	margin-top: 50px;
+	margin-left: 20%;
+	border: 1px solid #ccc;
+	width: 35%;
+}
+
+.introdiv-2 {
+	-webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px
+		rgba(0, 0, 0, 0.23);
+	-moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px
+		rgba(0, 0, 0, 0.23);
+	-ms-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px
+		rgba(0, 0, 0, 0.23);
+	-o-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px
+		rgba(0, 0, 0, 0.23);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.introteacher {
+	margin-left: 20%;
+	width: 35%;
+}
+
+.imgteacher {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.teachername {
+	color: rgb(86, 36, 203);
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.btnintro {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 6px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	outline: none;
+}
+
+.btnreadmore {
+	background-color: white;
+	color: black;
+	border: 2px solid #e7e7e7;
+	outline: none;
+}
+
+.btnreadmore:hover {
+	background-color: #e7e7e7;
+}
+
+.btnintroprice {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: purple;
+	text-align: center;
+	cursor: pointer;
+	width: 75%;
+}
+
+.btnintroprice:hover {
+	background-color: #555;
+}
+
+.introbox1 {
+	background-color: rgb(28, 29, 31);
+	width: 100%;
+	height: 200px;
+	margin: auto;
+	margin-top: 120px;
+	position: relative;
+}
+
+.introbox2 {
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	left: 20%;
+	padding-top: 10px;
+	color: white;
+}
+
+.introbuy {
+	width: 20%;
+	border: 1px solid #ccc;
+	position: fixed;
+	top: 130px;
+	right: 15%;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	padding: 3px;
+}
+
+.pcolor1 {
+	color: black;
+}
+
+.littleimg {
+	width: 18px;
+	height: 18px;
+	margin-top: 4px;
+}
+
+.ratingp {
+	color: orange;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.checked {
+	color: orange;
+}
+
+/* stars */
+.rateside {
+	float: left;
+	width: 15%;
+	margin-top: 10px;
+}
+
+.ratemiddle {
+	margin-top: 10px;
+	float: left;
+	width: 70%;
+}
+
+/* Place text to the right */
+.rateright {
+	text-align: right;
+}
+
+/* Clear floats after the columns */
+.raterow {
+	margin-left: 3%;
+	width: 450px;
+}
+
+.raterow:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* The bar container */
+.bar-container {
+	width: 100%;
+	background-color: #f1f1f1;
+	text-align: center;
+	color: white;
+}
+
+/* Individual bars */
+.bar-5 {
+	width: 60%;
+	height: 18px;
+	background-color: gray;
+}
+
+.bar-4 {
+	width: 30%;
+	height: 18px;
+	background-color: gray;
+}
+
+.bar-3 {
+	width: 10%;
+	height: 18px;
+	background-color: gray;
+}
+
+.bar-2 {
+	width: 4%;
+	height: 18px;
+	background-color: gray;
+}
+
+.bar-1 {
+	width: 15%;
+	height: 18px;
+	background-color: gray;
+}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media ( max-width : 400px) {
+	.rateside, .ratemiddle {
+		width: 100%;
+	}
+	.rateright {
+		display: none;
+	}
+}
+
+.commentphoto {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.cartlist1 {
+	width: 50%;
+	margin-left: 20%;
+}
+
+.cartbox1 {
+	background-color: rgb(28, 29, 31);
+	width: 100%;
+	height: 100px;
+	margin: auto;
+	margin-top: 120px;
+	position: relative;
+}
+
+.cartimg1 {
+	width: 150px;
+	height: 80px;
+	padding: 5px;
+}
+
+.cartbox2 {
+	width: 100%;
+	height: 10%;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+}
+
+.cartbuylist {
+	width: 15%;
+	position: absolute;
+	top: 320px;
+	right: 5%;
+}
+
+.cartbuybtn {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	color: white;
+	background-color: purple;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+}
+
+.cartbuybtn:hover {
+	background-color: #555;
+}
+
+.topnav001 {
+	overflow: hidden;
+	background-color: #333;
+}
+
+.topnav001 a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav001 a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.topnav001 a.active {
+	background-color: #04AA6D;
+	color: white;
+}

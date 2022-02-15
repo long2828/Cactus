@@ -1,0 +1,104 @@
+@charset "BIG5";
+body{
+        background-image:url(../images/one.jpeg);
+        background-size:100% ;
+        font-family: Roboto;
+        /*display:flex;*/
+        align-items:center;
+        justify-content:center;
+    }
+    
+    .login{
+        width: 380px; 
+           
+        color:#fff;    
+        transform: translate(-50,-50);
+        text-align: center;
+        padding: 40px 40px 0px 40px;
+        background: rgba(0,0,0,0.5);
+        border-radius: 15px;
+        margin:90px auto ;
+       /* box-shadow: 10px 10px 25px #000000;        
+        */
+    }
+    .login i{
+        font-size:100px;
+        margin:20px auto;
+    }
+    .login input{
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        padding: 10px;
+        font-size: 17px;
+        border-radius: 20px;
+        outline:none;
+        
+    }
+    .login input[type="text"],.login input[type="password"]{
+        /*font-weight: 550;*/
+        border: 2px solid #9D9D9D;    
+    }
+    .login input[type="text"]:focus, .login input[type="password"]:focus{      
+        transition:0.5s;
+        border: 2px solid 	#01B468
+          
+    }
+   
+    .login input[type="submit"]{
+        font-size:18px;
+        width: 120px;
+        border: 2px solid #9D9D9D; 
+        cursor:pointer;     
+    }
+    .login input[type="submit"]:hover{     
+        background-color:#9D9D9D;
+        transition: 0.3s;
+    }
+    
+    #i1{      
+        text-indent: 26px;      
+        width:240px;
+        font-size:18px;
+        color:#fff; 
+        background-color:#0072E3;
+        border: 2px solid #0072E3;      
+    }
+    #i1:hover{
+        background-color:#005AB5;
+        transition: 0.3s;
+        border: 2px solid #005AB5;        
+    }
+    .img1{
+        pointer-events: none;
+       
+        position:relative; 
+        top:-130px; left:-111px; 
+    }
+    a{    
+        font-size: large; 
+        color:#E0E0E0;
+        text-decoration:none;
+    }
+    #a1{
+       padding-right:110px;
+    }
+    #i2{
+        background-color:#fff;
+        text-indent: 26px;      
+        width:240px;
+        font-size:18px;       
+    }
+    #i2:hover{
+        background-color:#9D9D9D;
+        transition: 0.3s;       
+    }
+    .img2{
+        pointer-events: none;
+        width:35px;
+        height:35px;
+        position:relative; 
+        top:-61px; left:-78px; 
+    }
+
+    

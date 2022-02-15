@@ -1,0 +1,133 @@
+@charset "BIG5";
+.container {
+      margin-right: auto;
+      margin-left: auto;
+      padding-right: 15px;
+      padding-left: 15px;
+      width: 100%;
+      max-width: 1140px;
+    }
+
+    .dimg1 {
+      text-align: center;
+      height: 200px;
+      width: 200px;
+      font-size: 180px;
+      color: #5B5B5B;
+      
+      margin-top: 75px;
+      /*background-color: bisque;*/
+    }
+
+    .lilist {
+      margin-top: 100px;
+      text-align: center;
+      margin-left: 75px;
+      list-style-type: none;
+      text-shadow: 2px 2px 2px;
+
+      border-style: dotted;
+      /*background-color: coral;*/
+    }
+
+    .dli1 {
+      /*background-color: aqua;*/
+      width: 280px;
+      height: 600px;
+      font-size: x-small;
+
+    }
+
+    .d2 {
+      margin: 0px auto;
+      width: 300px;
+      height: 300px;
+
+      text-align: left;
+      font-family:·L³n¥¿¶ÂÅé;
+      text-align: center;
+      
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    .d1 {
+      text-align: center;
+
+    }
+
+    .c1 {
+      text-align: center;
+      font-size: 200px;
+      color: #5B5B5B
+    }
+
+    input{
+        border-radius: 10px;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    .p123 {
+      padding-bottom: 20px;
+      font-size: 17px;      
+    }
+    
+
+    .p1 {
+      text-align: center;
+
+    }
+
+    .p2 {
+      padding-top: 15px;
+    }
+
+    .h123 {
+      margin-top: 85px;
+      margin-left: 15px;
+      font-size: 20px;
+    }
+
+    h2 {
+      font-size: 25px;
+    }
+    img{
+        width:200px;
+        height:200px;
+        overflow: hidden;
+        border-radius:50%
+
+     } 
+
+
+
+    #exhibitor114 {
+      float: inherit;
+      margin: 0 auto;
+      width: auto;
+      height: 100%;
+
+    }
+
+    #exhibitorleft {
+      float: left;
+      width: 20%;
+      height: 100%;
+
+      /*background:#eeeeee*/
+    }
+
+    #exhibitorright {
+      padding-left: 220px;
+      padding-bottom: 200px;
+      float: left;
+      width: 650px;
+      height: 500px;
+     
+
+
+      /*background-color: aqua;*/
+    }
